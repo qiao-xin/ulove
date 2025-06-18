@@ -33,11 +33,11 @@ chmod 750 set_PATH.sh
 source set_PATH.sh
 ```
 
-Test you can run DupGen_finder:
+Test you can run ULOVE:
 ```bash
-DupGen_finder.pl
+ulove.pl
 ```
-DupGen_finder should print its 'help' text.
+ULOVE should print its 'help' text.
 
 ## Running
 
@@ -72,7 +72,7 @@ ulove.pl -i ./data -o . -l viridiplantae -s Arath
 ```
 
 ## Result Files
-### 1 - short_summary.specific.viridiplantae.Arath.ulove.txt: 
+### 1 - short_summary.specific.viridiplantae.Arath.ulove.txt
 ```
 # ULOVE version is: 1.0.0
 # The lineage dataset is: viridiplantae (Creation date: 2025-06-06, number of genomes: 1163, number of ULOVEs: 371)
@@ -94,10 +94,11 @@ Dependencies and versions:
 	ulove: 1.0.0
 ```
 
-### 2 - Arath_ulove_assessment_result.pdf: 
+### 2 - Arath_ulove_assessment_result.pdf
+![Arath_ulove_assessment_result](/data/Arath_ulove_assessment_result.pdf)
+*Figure 1: The visualization of gene annotation completeness assessment for Arabidopsis thaliana.*
 
-
-### 3 - A directory "hmmsearch_results": 
+### 3 - A directory "hmmsearch_results" including output files from hmmsearch
 ```
 OG0004472_Arath.domtblout
 OG0004472_Arath.out
@@ -107,7 +108,6 @@ OG0004791_Arath.domtblout
 OG0004791_Arath.out
 ...
 ```
-
 
 ## Citation
 Preparation and submission.
