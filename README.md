@@ -33,9 +33,9 @@ chmod 750 set_PATH.sh
 source set_PATH.sh
 ```
 
-Test you can run DupGen_finder:
+Test you can run ULOVE:
 ```bash
-DupGen_finder.pl
+ulove.pl
 ```
 DupGen_finder should print its 'help' text.
 
