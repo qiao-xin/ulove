@@ -95,7 +95,7 @@ Dependencies and versions:
 ```
 
 ### 2 - Arath_ulove_assessment_result.pdf
-![Arath_ulove_assessment_result](/data/Arath_ulove_assessment_result.pdf)
+![Arath_ulove_assessment_result](/data/Arath_ulove_assessment_result.png)
 *Figure 1: The visualization of gene annotation completeness assessment for Arabidopsis thaliana.*
 
 ### 3 - A directory "hmmsearch_results" including output files from hmmsearch
