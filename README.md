@@ -25,7 +25,7 @@ A software used to assess gene annotation completeness with universal low-copy o
 
 ```bash
 cd ~/software  # or any directory of your choice
-git clone https://github.com/qiao-xin/DupGen_finder.git
+git clone https://github.com/qiao-xin/ulove.git
 cd ulove
 chmod 750 ulove.pl
 chmod 750 generate_figure.py
