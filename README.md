@@ -27,11 +27,7 @@ A software used to assess gene annotation completeness with universal low-copy o
 cd /path/to/your_software_directory  # or any directory of your choice
 git clone https://github.com/qiao-xin/ulove.git
 cd ulove
-chmod 750 ulove.pl
-chmod 750 generate_figure.py
-chmod 750 set_PATH.sh
-chmod 750 decompress_files.sh
-cd hmm
+chmod 750 ulove.pl generate_figure.py set_PATH.sh decompress_files.sh
 sh decompress_files.sh
 source set_PATH.sh
 ```
